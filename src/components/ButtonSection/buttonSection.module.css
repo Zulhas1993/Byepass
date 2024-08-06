@@ -1,0 +1,181 @@
+.buttonSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .background {
+    background-color: #f5f5f5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 49px 80px;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 929px;
+    width: 100%;
+  }
+  
+  .title {
+    color: #464952;
+    text-align: center;
+    font: 700 17px/1 Inter, sans-serif;
+  }
+  
+  .description {
+    color: #464952;
+    text-align: center;
+    margin-top: 17px;
+    font: 400 14px/1 Inter, sans-serif;
+  }
+  
+  .subDescription {
+    color: #464952;
+    text-align: center;
+    margin-top: 16px;
+    font: 400 14px/1 Inter, sans-serif;
+  }
+  
+  .infoSection {
+    background-color: #ffffff;
+    border: 2px solid #4472c4;
+    padding: 19px 80px 40px 16px;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .sectionTitle {
+    color: #464952;
+    text-align: center;
+    font: 700 17px/1 Inter, sans-serif;
+  }
+  
+  .sectionSubtitle {
+    color: #464952;
+    text-align: center;
+    margin-top: 22px;
+    font: 400 14px/1 Inter, sans-serif;
+  }
+  
+  .paymentOptions {
+    margin-top: 19px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .paymentMethods {
+    color: #464952;
+    font: 400 14px/1 Inter, sans-serif;
+  }
+  
+  .paymentDetails {
+    margin-top: 21px;
+    display: flex;
+    width: 100%;
+  }
+  
+  .paymentColumn {
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+  }
+  
+  .paymentInfo {
+    color: #464952;
+    font: 400 14px/1 Inter, sans-serif;
+  }
+  
+  .paymentMethod {
+    margin-top: 34px;
+  }
+  
+  .paymentStart {
+    margin-top: 53px;
+  }
+  
+  .paymentColumn2 {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    margin-left: 20px;
+  }
+  
+  .paymentTiming {
+    text-align: center;
+    color: #464952;
+    font: 400 14px/1 Inter, sans-serif;
+  }
+  
+  .timingTitle {
+    margin-top: 53px;
+  }
+  
+  .notesTitle {
+    color: #464952;
+    text-align: center;
+    margin-top: 21px;
+    font: 400 14px/1 Inter, sans-serif;
+  }
+  
+  .notes {
+    color: #464952;
+    margin-top: 19px;
+    font: 400 14px/20px Inter, sans-serif;
+  }
+  
+  .formButton, .formButton2 {
+    border-radius: 8px;
+    background-color: #b1252a;
+    color: #ffffff;
+    text-align: center;
+    padding: 13px 70px; /* Ensure padding is consistent */
+    font: 700 14px/20px Inter, sans-serif;
+    border: 1px solid #b1252a;
+    cursor: pointer;
+    width: 100%; /* Set width to 100% for responsive sizing */
+    max-width: 620px; /* Ensure both buttons have the same maximum width */
+    margin-top: 10px;
+  }
+  
+  .licenseInfo {
+    color: #ff0000;
+    text-align: center;
+    margin-top: 12px;
+    font: 400 13px/1 Inter, sans-serif;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 991px) {
+    .background {
+      padding: 0 20px;
+    }
+  
+    .contentWrapper {
+      max-width: 100%;
+    }
+  
+    .paymentDetails {
+      flex-direction: column;
+    }
+  
+    .paymentColumn2 {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .formButton, .formButton2 {
+      padding: 13px 50px; /* Adjust padding for smaller screens */
+    }
+  }
+  
